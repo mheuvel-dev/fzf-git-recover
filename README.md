@@ -1,9 +1,7 @@
 fzf-git-recover
 ==========
 
-[git-recover][git-recover] powered by [fzf][fzf]
-
-Fuzzy-search deleted files in your repository.
+Search for deleted files with [git-recover][git-recover] in your Git repository, powered by [fzf][fzf]
 
 [fzf]: https://github.com/junegunn/fzf
 [git-recover]: https://github.com/ethomson/git-recover
