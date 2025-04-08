@@ -29,5 +29,8 @@ Select objects in [fzf][fzf], preview them and paste selected identifiers to you
 
 ### Inside fzf
 
+We follow the same conventions as [fzf-git.sh](https://raw.githubusercontent.com/junegunn/fzf-git.sh/main/fzf-git.sh):
 * <kbd>CTRL-F</kbd> to select a `full` search by [git-recover][git-recover]
 * <kbd>ALT-E</kbd> to examine the git-object in your editor
+* <kbd>TAB</kbd> or <kbd>SHIFT-TAB</kbd> to select multiple objects
+* <kbd>CTRL-/</kbd> to change preview window layout
