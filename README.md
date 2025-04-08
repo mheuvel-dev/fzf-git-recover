@@ -23,13 +23,14 @@ Usage
 A key-binding allows you to browse through orphaned Git objects populated by [git-recover][git-recover]. 
 Select objects in [fzf][fzf], preview them and paste selected identifiers to your command-line.
 
+We follow the same user conventions as [fzf-git.sh](https://raw.githubusercontent.com/junegunn/fzf-git.sh/main/fzf-git.sh).
+
 ### List of bindings
 
 * <kbd>CTRL-G</kbd><kbd>CTRL-O</kbd> or <kbd>CTRL-G</kbd><kbd>o</kbd> for **O**rphaned files
 
 ### Inside fzf
 
-We follow the same conventions as [fzf-git.sh](https://raw.githubusercontent.com/junegunn/fzf-git.sh/main/fzf-git.sh):
 * <kbd>CTRL-F</kbd> to select a `full` search by [git-recover][git-recover]
 * <kbd>ALT-E</kbd> to examine the git-object in your editor
 * <kbd>TAB</kbd> or <kbd>SHIFT-TAB</kbd> to select multiple objects
